@@ -1,0 +1,37 @@
+# Never commit real traces, ground-truth seed manifests or analysis outputs.
+data/
+results/
+outputs/
+**/shared_secret_seeds*.json
+**/capture_traces_*.npy
+**/*_addrs_*.npy
+**/*_params_*.npy
+*.npy
+*.npz
+*.h5
+*.hdf5
+*.csv
+*.xlsx
+**/*_Results/
+**/*_Results/**
+**/_selected_trace_cache/
+**/_pooled_trace_cache/
+**/run_manifest.json
+**/status.json
+**/result.json
+**/stages.json
+*.partial
+*.tmp
+*.log
+# Python / local tools
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+.env
+.env.*
+.idea/
+.vscode/
+.DS_Store

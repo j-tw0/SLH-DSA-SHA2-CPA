@@ -1,0 +1,27 @@
+cff-version: 1.2.0
+message: "Please cite the associated paper when using this code."
+title: "SHA-2-Based SLH-DSA Correlation Power Analysis"
+authors:
+  - family-names: Chang
+    given-names: Jinwook
+  - family-names: Lee
+    given-names: Minjeong
+  - family-names: Min
+    given-names: Jin Yong
+  - family-names: Han
+    given-names: Dong-Guk
+url: "https://github.com/j-tw0/SLH-DSA-SHA2-CPA"
+preferred-citation:
+  type: generic
+  title: "Correlation Power Analysis on SHA-2-Based SLH-DSA"
+  authors:
+    - family-names: Chang
+      given-names: Jinwook
+    - family-names: Lee
+      given-names: Minjeong
+    - family-names: Min
+      given-names: Jin Yong
+    - family-names: Han
+      given-names: Dong-Guk
+  year: 2026
+  url: "https://eprint.iacr.org/2026/2753"
